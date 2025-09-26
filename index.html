@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diego Pinetti | Personal Trainer</title>
+  <meta name="description" content="Personal training in Rotterdam — strength, endurance, mobility, weightlifting. Book 1:1, partner, or small group sessions." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top">Diego Pinetti <span class="brand-sub">PT</span></a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services & Prices</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Personal Training in Rotterdam</h1>
+          <p>Strength • Endurance • Mobility • Weightlifting. Evidence-based coaching tailored to your goals.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#contact">Book a Free Chat</a>
+          </div>
+          <ul class="badges">
+            <li>CrossFit L2 Trainer</li>
+            <li>BSc in Sports Science</li>
+            <li>First Aid & BLS</li>
+          </ul>
+        </div>
+        <div class="hero-card">
+          <div class="card">
+            <h3>Focus Areas</h3>
+            <ul>
+              <li>Functional & strength training</li>
+              <li>Endurance & conditioning</li>
+              <li>Mobility & post-injury return</li>
+              <li>Body recomposition</li>
+            </ul>
+            <a class="btn btn-secondary" href="#services">See Plans</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>About Diego</h2>
+          <p>I am a certified fitness trainer with a solid academic foundation in Sports Science and several years of professional experience across Italy and the Netherlands. My background includes <strong>strength and endurance programming</strong>, functional training, CrossFit, mobility development, <strong>sport-specific preparation</strong>, and post-injury rehabilitation.</p>
+          <p>What truly drives me is helping people move better, feel stronger, and build confidence in what their body can achieve. Whether your goal is fat loss, strength development, improved performance, or recovery after an injury, I design tailored programs that are safe, effective, and sustainable.</p>
+          <p>Over the past years I’ve worked with a wide variety of clients — from complete beginners to competitive athletes and seniors. This experience has taught me that every person’s journey is unique, and that the key to long-term progress is a balance of evidence-based methods, consistency, and motivation.</p>
+          <p>My approach is straightforward: clear coaching, structured plans, and constant support. Training is not only about improving physical performance, but also about gaining resilience and confidence that carry over into daily life.</p>
+          <p>If you are ready to challenge yourself, I’ll be there to guide you every step of the way.</p>
+        </div>
+        <div class="about-card">
+          <div class="card">
+            <h3>Credentials</h3>
+            <ul>
+              <li>BSc in Sports Science</li>
+              <li>CrossFit Level 2 Trainer</li>
+              <li>CrossFit Level 1 Trainer</li>
+              <li>FIPE Fitness Trainer L1</li>
+              <li>Functional Trainer L1</li>
+              <li>First Aid & BLS certification</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section alt">
+      <div class="container">
+        <h2>Services & Prices</h2>
+        <p class="muted">All prices shown are <strong>excluding VAT</strong>. Dutch VAT for sports instruction applies at <strong>9%</strong>.</p>
+
+        <div class="cards">
+          <article class="card">
+            <h3>1:1 — Individual</h3>
+            <ul class="price-list">
+              <li><span>Single (60')</span><span>€70 excl.</span></li>
+              <li><span>5 Sessions</span><span>€330 excl.</span></li>
+              <li><span>10 Sessions</span><span>€640 excl.</span></li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Partner — 2 People</h3>
+            <ul class="price-list">
+              <li><span>Single (60')</span><span>€100 excl.</span></li>
+              <li><span>5 Sessions</span><span>€450 excl.</span></li>
+              <li><span>10 Sessions</span><span>€880 excl.</span></li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Small Group — up to 4</h3>
+            <ul class="price-list">
+              <li><span>Single (60') p.p.</span><span>€35 excl.</span></li>
+              <li><span>5 Sessions p.p.</span><span>€160 excl.</span></li>
+              <li><span>10 Sessions p.p.</span><span>€300 excl.</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>Contact & Booking</h2>
+          <p>Tell me about your goals and schedule. I’ll reply within 24 hours.</p>
+          <form class="contact-form" action="mailto:diegopinettipt@gmail.com" method="post" enctype="text/plain">
+            <div class="row">
+              <label for="name">Name</label>
+              <input id="name" name="Name" type="text" required />
+            </div>
+            <div class="row">
+              <label for="email">Email</label>
+              <input id="email" name="Email" type="email" required />
+            </div>
+            <div class="row">
+              <label for="message">Message</label>
+              <textarea id="message" name="Message" rows="5" placeholder="Your goals, preferred schedule, training history…" required></textarea>
+            </div>
+            <div class="row">
+              <button class="btn btn-primary" type="submit">Send Email</button>
+            </div>
+          </form>
+
+          <a class="btn-wa" href="https://wa.me/393318712298" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="24" height="24" aria-hidden="true" focusable="false">
+              <path d="M128.002 24C70.383 24 23.997 70.383 24 127.998c.001 21.958 6.002 42.346 16.41 59.78L24 232l45.317-16.167c16.896 9.236 36.327 14.51 56.685 14.51h.002c57.616 0 104.002-46.386 103.998-104.002C230 70.383 185.617 24 128.002 24zm0 188.8h-.002c-18.57 0-35.84-5.45-50.274-14.808l-3.6-2.277-26.888 9.6 9.29-27.706-2.373-3.83C45.08 160.6 39.2 144.953 39.2 127.996 39.2 78.6 78.606 39.2 128.002 39.2c49.395 0 88.8 39.4 88.8 88.8.002 49.397-39.403 84.8-88.8 84.8zm50.394-63.64c-2.76-1.38-16.336-8.04-18.87-8.957-2.534-.92-4.377-1.38-6.22 1.38-1.843 2.76-7.14 8.96-8.755 10.8-1.615 1.84-3.23 2.07-5.99.69-2.76-1.38-11.64-4.29-22.19-13.69-8.205-7.32-13.736-16.36-15.35-19.12-1.615-2.76-.173-4.25 1.21-5.62 1.242-1.237 2.76-3.23 4.14-4.845 1.38-1.615 1.84-2.76 2.76-4.6.92-1.84.46-3.45-.23-4.83-.69-1.38-6.22-14.98-8.5-20.51-2.24-5.397-4.52-4.67-6.22-4.76-1.61-.08-3.45-.1-5.29-.1-1.84 0-4.83.69-7.37 3.45-2.54 2.76-9.69 9.46-9.69 23.07 0 13.61 9.93 26.74 11.31 28.58 1.38 1.84 19.52 29.8 47.3 41.78 6.61 2.85 11.76 4.55 15.8 5.82 6.63 2.11 12.66 1.81 17.43 1.1 5.32-.8 16.33-6.67 18.65-13.1 2.32-6.43 2.32-11.94 1.62-13.1-.69-1.16-2.53-1.85-5.29-3.23z" fill="currentColor"/>
+            </svg>
+            Chat on WhatsApp
+          </a>
+
+        </div>
+        <div class="card contact-card">
+          <h3>Direct Contacts</h3>
+          <ul class="list">
+            <li><strong>Email:</strong> <a href="mailto:diegopinettipt@gmail.com">diegopinettipt@gmail.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+393318712298">+39 331 871 2298</a></li>
+            <li><strong>Base:</strong> Rotterdam, NL</li>
+          </ul>
+          <p class="muted small">By contacting me you agree to be reached back regarding training services. No spam, ever.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© <span id="y"></span> Diego Pinetti — Personal Trainer</p>
+      <div class="footer-links">
+        <a href="#top">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
